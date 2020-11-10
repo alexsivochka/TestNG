@@ -1,0 +1,25 @@
+import org.testng.annotations.Test;
+
+public class GroupExample {
+
+    @Test(groups = { "test-group" })
+    public void testMethodOne() {
+        System.out.println("Test method one belonging to group.");
+    }
+
+    @Test
+    public void testMethodTwo() {
+        System.out.println("Test method two not belonging to group.");
+    }
+
+    @Test(groups = { "test-group" })
+    public void testMethodThree() {
+        System.out.println("Test method three belonging to group.");
+    }
+
+    @Test(groups = { "test-group", "group-two" })
+    public void testMethodFour() {
+        System.out.println("Test method four belonging to both groups.");
+    }
+}
+

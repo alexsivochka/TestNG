@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testNG">
+    
+    <test name="Regular Expression">
+
+        <groups>
+            <run>
+                <include name="include.*" />
+<!--                <exclude name=".*exclude" />-->
+            </run>
+
+        </groups>
+        <classes>
+            <class name="RegularExpressionGroupTest" />
+        </classes>
+    </test>
+
+</suite>

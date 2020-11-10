@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testNG">
+    
+    <test name="Annotations attribute">
+
+        <parameter name="name" value="user1"></parameter>
+        <parameter name="pass" value="pass1"></parameter>
+
+        <classes>
+            <class name="ParametersExample" />
+        </classes>
+    </test>
+
+</suite>
