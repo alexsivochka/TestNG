@@ -6,7 +6,7 @@
     <test name="Groups">
         <groups>
             <run>
-                <include name="include-group"></include>
+<!--                <include name="include-group"></include>-->
                 <exclude name="exclude-group"></exclude>
             </run>
         </groups>

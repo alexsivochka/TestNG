@@ -51,7 +51,7 @@ public class AnnotationAttribute {
 
     @Test(priority = 7, expectedExceptions = ArithmeticException.class, description = "Test-7")
     public void testMethod7() {
-        Assert.assertEquals(2, 6/0);
         System.out.println("This method checks exception appears");
+        Assert.assertEquals(2, 6/0);
     }
 }

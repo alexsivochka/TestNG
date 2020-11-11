@@ -12,15 +12,15 @@ public class DataProviderExample {
 //        };
 //        return userCreds;
 //    }
-
+//
 //    @Test(description = "Check user login", dataProvider = "userData")
 //    public void loginTest(String name, String pass){
 //        System.out.printf("User name: %s. User password: %s\n", name, pass);
 //    }
 
 
-    @Test(description = "Check user login", dataProvider = "userData", dataProviderClass = DPClass.class)
-    public void loginTest(String name, String pass){
+    @Test(description = "Check user login2", dataProvider = "userData", dataProviderClass = DPClass.class)
+    public void loginTest2(String name, String pass){
         System.out.printf("User name: %s. User password: %s\n", name, pass);
     }
 

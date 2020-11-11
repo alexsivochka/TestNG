@@ -6,8 +6,8 @@
     <test name="Groups">
         <groups>
             <run>
-                <include name="test-group"></include>
-<!--                <include name="group-two"></include>-->
+<!--                <include name="test-group"></include>-->
+                <include name="group-two"></include>
             </run>
         </groups>
         <classes>
